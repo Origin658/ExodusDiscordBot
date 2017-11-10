@@ -65,6 +65,7 @@ public class Main {
         jda.addEventListener(new Author());
         jda.addEventListener(new UpTime());
         jda.addEventListener(new McStats());
+        jda.addEventListener(new Ducky());
     }
     private static void registerGuildVoiceEvents(){
         jda.addEventListener(new VoiceJoin());
